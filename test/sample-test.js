@@ -1,6 +1,6 @@
 /* test/sample-test.js */
-describe("NFTMarket", function() {
-  it("Should create and execute market sales", async function() {
+describe("Land registry", function() {
+  it("Should register and tokenize land  sales", async function() {
     /* deploy the marketplace */
     const NFTMarketplace = await ethers.getContractFactory("NFTMarketplace")
     const nftMarketplace = await NFTMarketplace.deploy()
